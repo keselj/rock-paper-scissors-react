@@ -102,7 +102,7 @@ function App() {
       <p className="score">
         Wins: {score.wins} Losses: {score.losses} Ties: {score.ties}
       </p>
-      <div>
+      <div className="reset-button-container">
         <button className="reset-button" onClick={resetScore}>
           Reset Score
         </button>
